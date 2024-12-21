@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 menuItem.href = item.url; // Assuming each menu item has a 'url' property in JSON
 
                 // Preappend the ~ for seperator
-                if (count !== 0) nav.append("~");
+                if (count !== 0) nav.append("||");
 
                 // Append menu item to the container
                 nav.appendChild(menuItem);  
