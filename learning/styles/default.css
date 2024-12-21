@@ -57,6 +57,7 @@ main {
 
 h1 {
     text-align: center;
+    color:#aaa;
 }
 
 h2 {
@@ -78,6 +79,21 @@ img {
 figcaption {
     text-align: center;
     color: #aaa;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    color:#aaa
+}
+code {
+    background-color: #eaeaea;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.important {
+    color: #e53935;
+    font-weight: bold;
 }
 
 /* Footer */
